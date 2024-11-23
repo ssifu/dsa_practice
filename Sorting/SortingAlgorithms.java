@@ -46,7 +46,7 @@ public class SortingAlgorithms {
      * 
      * SELECTION SORT
      * 
-     * - Get the minimum value (minum values index) in each iteration
+     * - Get the minimum value (minimum values index) in each iteration
      * - Put it into the current index position
      * - TO = O(n^2) for every case
      * 
@@ -90,7 +90,7 @@ public class SortingAlgorithms {
         for (int i = 0; i < n; i++) {
 
             // Take that value and put it in it's correct position by shifting every value
-            // to it's right or by swapping values to the left untill it cannot be swapped
+            // to it's right or by swapping values to the left until it cannot be swapped
             // anymore
             for (int j = i; j > 0; j--) {
 
@@ -239,7 +239,7 @@ public class SortingAlgorithms {
                 i++;
             }
 
-            // It will stop when it finds a smaller than pivot elemeent on the right
+            // It will stop when it finds a smaller than pivot element on the right
             while (arr[j] > pivot && j > low) {
                 j--;
             }
